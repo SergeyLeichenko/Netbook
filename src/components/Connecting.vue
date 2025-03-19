@@ -3,7 +3,7 @@
 
     <div class="connecting-block__ratting">
       <div class="ratting">
-        <img src="../assets/images/star.svg" alt="star" class="icon">
+        <img src="../assets/images/Star.svg" alt="star" class="icon">
         <p class="ratting_text">4.8 Rating</p>
       </div>
 
