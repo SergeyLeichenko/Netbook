@@ -1,0 +1,49 @@
+@use "./variables" as *;
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: Inter, sans-serif;
+  color: $black;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  // padding: 0 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $white;
+  font-size: 12px;
+  background-color: $blue;
+  border: 0;
+  border-radius: 14px;
+  padding: 15px 0;
+  cursor: pointer;
+  &:hover {
+    border: 1px solid $blue;
+    background-color: $white;
+    color: $blue;
+    font-weight: 600;
+  }
+}
+
+.padding {
+  padding: 100px 0;
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    padding: 0 20px;
+  }
+}
